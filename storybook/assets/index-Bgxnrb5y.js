@@ -1,0 +1,2 @@
+import{R as r}from"./index-BtL7HRcT.js";import"./index-Br2T16Vs.js";const o=r.createContext({});function i(t){const e=r.useContext(o);return r.useMemo(()=>typeof t=="function"?t(e):{...e,...t},[e,t])}const f={};function l({components:t,children:e,disableParentContext:u}){let n;return u?n=typeof t=="function"?t({}):t||f:n=i(t),r.createElement(o.Provider,{value:n},e)}export{o as MDXContext,l as MDXProvider,i as useMDXComponents};
+//# sourceMappingURL=index-Bgxnrb5y.js.map

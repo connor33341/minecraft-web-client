@@ -1,0 +1,6 @@
+import{j as o}from"./jsx-runtime-C56M-QwW.js";import{r as m}from"./index-BtL7HRcT.js";import{S as p}from"./SharedHudVars-BT5CokiY.js";import"./index-Br2T16Vs.js";const u=({armorValue:a,style:i})=>{const t=m.useRef(null);return m.useEffect(()=>{const e=t.current.children;for(const r of e)r.classList.remove("full"),r.classList.remove("half");for(let r=0;r<Math.ceil(a/2)&&!(r>=e.length);r++)a%2!==0&&Math.ceil(a/2)===r+1?e[r].classList.add("half"):e[r].classList.add("full")},[a]),o(p,{children:o("div",{style:i??{},ref:t,className:"armor_container",children:Array.from({length:10},()=>0).map((d,e)=>o("div",{className:"armor"},`armor-${e}`))})})};try{ArmorBar.displayName="ArmorBar",ArmorBar.__docgenInfo={description:"",displayName:"ArmorBar",props:{armorValue:{defaultValue:null,description:"",name:"armorValue",required:!0,type:{name:"number"}},style:{defaultValue:null,description:"",name:"style",required:!1,type:{name:"CSSProperties"}}}}}catch{}const g={component:u},s={args:{armorValue:10}};var l,n,c;s.parameters={...s.parameters,docs:{...(l=s.parameters)==null?void 0:l.docs,source:{originalSource:`{
+  args: {
+    armorValue: 10
+  }
+}`,...(c=(n=s.parameters)==null?void 0:n.docs)==null?void 0:c.source}}};const A=["Primary"];export{s as Primary,A as __namedExportsOrder,g as default};
+//# sourceMappingURL=ArmorBar.stories-BoRQ4z14.js.map

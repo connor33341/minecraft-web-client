@@ -1,0 +1,5 @@
+{
+  "latestTag": "v0.1.78",
+  "changelog": "\n\n## [vv0.1.78](releases/tag/vv0.1.78) - 2025-03-22\n<!-- bump-type:patch -->\n### New Features\n\n- focus server ip input on adding or editing [`ba0287f`](/commit/ba0287f278216fdcc68302cb993f2701c77e2db1)\n### Bug Fixes\n\n- fix false `hurt_animation` packet handlings [`f87e785`](/commit/f87e7850ec9732202420e56360cc7d6502d376c7)\n- per component error boundary was not working properly crashing whole HUD gui when only component was going out of order [`fdd770e`](/commit/fdd770eeb9866606d0896927b5ed68cc0251e0ef)\n- fix resource pack = never [`8714fd4`](/commit/8714fd484b5d5be34301e0751f2f9ee3d913808d)\n- preserve list of initial servers when adding server, add always to top [`ba0287f`](/commit/ba0287f278216fdcc68302cb993f2701c77e2db1)\n- dont confuse with incorrect version display, allow to use config values as params in real time [`5bb09a8`](/commit/5bb09a88bcb10ea61727ca0d18e55ae512e22840)",
+  "previousTag": "v0.1.77"
+}

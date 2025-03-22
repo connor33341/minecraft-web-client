@@ -1,0 +1,1 @@
+.effectsScreen-container{position:fixed;top:max(6%,30px);left:0;z-index:-2;pointer-events:none}.indicators-container{display:flex;font-size:.8em}.effects-container{display:flex;flex-direction:column}.effect-box{display:flex;align-items:center}.effect-box__image{width:23px;margin-right:3px}.effect-box__time{font-size:.65rem}.effect-box__level{font-size:.45rem}

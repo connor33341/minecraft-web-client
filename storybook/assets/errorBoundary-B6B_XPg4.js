@@ -1,0 +1,2 @@
+var n=Object.defineProperty;var a=(e,r,t)=>r in e?n(e,r,{enumerable:!0,configurable:!0,writable:!0,value:t}):e[r]=t;var s=(e,r,t)=>a(e,typeof r!="symbol"?r+"":r,t);import{R as o}from"./index-BtL7HRcT.js";class d extends o.Component{constructor(){super(...arguments);s(this,"state",{error:void 0})}componentDidCatch(t){this.setState({error:t})}render(){return this.state.error?this.props.renderError?this.props.renderError(this.state.error):o.createElement("h1",null,"App Crashed!"):this.props.children}}export{d as E};
+//# sourceMappingURL=errorBoundary-B6B_XPg4.js.map
