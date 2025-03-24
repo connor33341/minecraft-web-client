@@ -7,7 +7,7 @@ COPY . /app
 # install pnpm
 RUN npm i -g pnpm@9.0.4
 # Build arguments
-ARG DOWNLOAD_SOUNDS=false
+ARG DOWNLOAD_SOUNDS=true
 ARG DISABLE_SERVICE_WORKER=false
 ARG CONFIG_JSON_SOURCE=REMOTE
 # TODO need flat --no-root-optional

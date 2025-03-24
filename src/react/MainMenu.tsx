@@ -155,7 +155,7 @@ export default ({
             onClick={onVersionStatusClick}
             className={styles['product-info']}
           >
-            PWC (FORK) {versionStatus}
+            PWC (FORK) {versionStatus} (patches applied)
           </span>
         </div>
         <span className={styles['product-description']}>
