@@ -89,7 +89,7 @@ export default ({
       <div className={styles['game-title']}>
         <div className={styles.minecraft}>
           <div className={styles.edition} />
-          <span className={styles.splash}>Prismarine is a beautiful block</span>
+          <span className={styles.splash}>Written by connor33341 and zardoy</span>
         </div>
       </div>
 
@@ -155,7 +155,7 @@ export default ({
             onClick={onVersionStatusClick}
             className={styles['product-info']}
           >
-            Prismarine Web Client {versionStatus}
+            PWC (FORK) {versionStatus}
           </span>
         </div>
         <span className={styles['product-description']}>
