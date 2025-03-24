@@ -7,7 +7,6 @@ package-lock.json
 Thumbs.db
 build
 localSettings.mjs
-dist*
 .DS_Store
 .idea/
 world

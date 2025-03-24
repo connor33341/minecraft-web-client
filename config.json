@@ -7,19 +7,9 @@
   "peerJsServerFallback": "https://p2p.mcraft.fun",
   "promoteServers": [
     {
-      "ip": "wss://mcraft.ryzyn.xyz",
-      "version": "1.19.4"
-    },
-    {
-      "ip": "wss://play.mcraft.fun"
-    },
-    {
-      "ip": "wss://play2.mcraft.fun"
-    },
-    {
-      "ip": "kaboom.pw",
-      "version": "1.20.3",
-      "description": "Very nice a polite server. Must try for everyone!"
+      "ip": "pvp.mc.connor33341.dev",
+      "version": "1.19.4",
+      "description": "Cracked PVP Server"
     }
   ],
   "pauseLinks": [

@@ -1,0 +1,5 @@
+services:
+  webclient:
+    image: "minecraftwebclient:latest"
+    ports:
+      - "8080:8080"
