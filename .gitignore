@@ -19,5 +19,6 @@ generated
 storybook-static
 server-jar
 config.local.json
+.pnpm-store
 
 src/react/npmReactComponents.ts
