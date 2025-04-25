@@ -7,6 +7,11 @@
   "peerJsServerFallback": "https://p2p.mcraft.fun",
   "promoteServers": [
     {
+      "ip": "mc.bagelsmp.org",
+      "version": "1.21.4",
+      "description": "BagelSMP - A Minecraft Survival Multiplayer Server"
+    },
+    {
       "ip": "pvp.mc.connor33341.dev",
       "version": "1.19.4",
       "description": "Cracked PVP Server"
